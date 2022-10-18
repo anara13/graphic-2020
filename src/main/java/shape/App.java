@@ -24,9 +24,9 @@ public class App extends Application {
         Canvas canvas = new Canvas(130, 110);
         GraphicsContext graphicsContext = canvas.getGraphicsContext2D();
         ShapeContainer shapeContainer = new ShapeContainer();
-        graphicsContext.setFill(Color.AQUAMARINE);
-        graphicsContext.fillOval(10,10,10,10);
+
         shapeContainer.addShape(new Rectangle(Color.BLUE,new Point2D(10,10), new Point2D(40,40)));
+        shapeContainer.addShape(new Polygon(Color.RED, new Point2D(50, 10), new Point2D(50,50), new Point2D(80,10)));
         shapeContainer.draw(graphicsContext);
         root.getChildren().add(canvas);
         primaryStage.setScene(new Scene(root));

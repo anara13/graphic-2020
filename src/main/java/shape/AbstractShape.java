@@ -4,21 +4,24 @@ import javafx.geometry.Point2D;
 import javafx.scene.canvas.GraphicsContext;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public abstract class  AbstractShape implements Shape{
-    List<Point2D> points = new ArrayList<>();
+    private List<Point2D> points = new ArrayList<>();
 
-    public int addPoints(Point2D points){ return 0; }
+    public void addPoints(Point2D... points){
+        this.points.addAll(Arrays.asList(points));
+    }
 
     @Override
     public int pointsCount(){
-        return 0;
+        return this.points.size();
     }
 
     @Override
     public Point2D point(int index){
-        return null;
+        return this.points.get(index);
     }
 
     @Override

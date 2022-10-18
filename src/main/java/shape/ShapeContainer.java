@@ -9,7 +9,9 @@ public class ShapeContainer{
 
     private List<Shape> shapes = new ArrayList<>();
 
-    public void addShape(Shape shape){}
+    public void addShape(Shape shape){
+        shapes.add(shape);
+    }
 
     public void  draw(GraphicsContext context){
         for(Shape shape : shapes)
