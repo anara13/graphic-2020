@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36ee74cb-5d1e-414e-8f30-35ac200c0812" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shape/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shape/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/shape/Polygon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shape/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/Rectangle.java" afterDir="false" />
+    <list default="true" id="36ee74cb-5d1e-414e-8f30-35ac200c0812" name="Changes" comment="Decorator implementation from class diagram finished">
+      <change afterPath="$PROJECT_DIR$/src/main/java/shape/BorderDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shape/CenterDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shape/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shape/Decorator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +55,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -74,11 +71,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665653362398</updated>
-      <workItem from="1665653363660" duration="1298000" />
+      <workItem from="1665653363660" duration="1373000" />
+      <workItem from="1666082030559" duration="1152000" />
     </task>
+    <task id="LOCAL-00001" summary="Decorator in progress (only constructor done)">
+      <created>1665654732747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665654732747</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Decorator in progress (only constructor done)" />
+    <MESSAGE value="Decorator implementation from class diagram finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator implementation from class diagram finished" />
   </component>
 </project>
